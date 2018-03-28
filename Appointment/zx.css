@@ -36,9 +36,17 @@ h3
     font-size: 20px;
     opacity: 0.8;
 }
+@media screen (max-width:1200px) and (min-width:990px)
+    {
+        .vp
+{
+    margin-left:30px;
+    
+}
+}
 #p1
 {
-       width: 200px;
+    width: 200px;
     height: 40px;
     text-indent:20px;
     font-size: 15px;
@@ -51,18 +59,29 @@ select,#p2,#pp,#pp1,#pp2
     text-indent:20px;
     font-size:20px;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:600px)
+{
     select,#p2,#pp,#pp1,#pp2
 {
     width: 275px;
 }
 
 }
+@media (min-width:1200px)
+{
 #pp6
 {
     width: 600px;
+    height: 150px;
+}
+
+}
+#pp6
+{
+    width: 275px;
     height: 200px;
     text-indent:20px;
+    resize:none;
 }
 .button
 {

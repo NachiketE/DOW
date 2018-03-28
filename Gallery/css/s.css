@@ -6,15 +6,6 @@
     background-color: whitesmoke;
     padding: 20px;
 }*/
-.parallax {
-    background-image: url("Images/45.jpg");
-    min-height: 400px; 
-    background-attachment: fixed;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
 /*.column{
     width:25%;
 }*/
@@ -38,11 +29,11 @@
     }
 .row1,
 .row1 > .column {
-    padding: 2px;
+    padding: 1px;
 }
 .column {
     float: left;
-    width: 25%;
+    
     padding:20px;
     padding-left: 5%;
 /*    margin-right: 0px;
