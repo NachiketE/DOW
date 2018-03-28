@@ -36,13 +36,11 @@ h3
     font-size: 20px;
     opacity: 0.8;
 }
-@media screen (max-width:1200px) and (min-width:990px)
-    {
-        .vp
+@media (max-width: 1200px) and (min-width: 990px)
 {
-    margin-left:30px;
-    
-}
+    .vp{
+        margin-left: 30px;
+    }
 }
 #p1
 {
@@ -67,18 +65,10 @@ select,#p2,#pp,#pp1,#pp2
 }
 
 }
-@media (min-width:1200px)
-{
-#pp6
-{
-    width: 600px;
-    height: 150px;
-}
 
-}
 #pp6
 {
-    width: 275px;
+    width: 450px;
     height: 200px;
     text-indent:20px;
     resize:none;
@@ -105,4 +95,9 @@ input{
         margin-top: 20px;
     }
 }
-
+@media (max-width: 990px)
+{
+    #pp6{
+        width: 275px;
+    }
+}
